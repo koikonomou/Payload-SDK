@@ -72,7 +72,7 @@ if (OpenCV_FOUND)
     message(STATUS " - Libraries: ${OpenCV_LIBRARIES}")
     add_definitions(-DOPEN_CV_INSTALLED)
     execute_process(COMMAND opencv_version OUTPUT_VARIABLE OPENCV_VERSION)
-    if (${OPENCV_VERSION} STRLESS "4.0.0")
+    if(OpenCV_VERSION VERSION_LESS 4.0.0)
         add_definitions(-DOPEN_CV_VERSION_3)
 
     else ()
