@@ -35,12 +35,20 @@ extern "C" {
 /* Exported constants --------------------------------------------------------*/
 // ATTENTION: User must goto https://developer.dji.com/user/apps/#all to create your own dji sdk application, get dji sdk application
 // information then fill in the application information here.
-#define USER_APP_NAME               "your_app_name"
-#define USER_APP_ID                 "your_app_id"
-#define USER_APP_KEY                "your_app_key"
-#define USER_APP_LICENSE            "your_app_license"
-#define USER_DEVELOPER_ACCOUNT      "your_developer_account"
-#define USER_BAUD_RATE              "460800"
+// #define USER_APP_NAME               "your_app_name"
+// #define USER_APP_ID                 "your_app_id"
+// #define USER_APP_KEY                "your_app_key"
+// #define USER_APP_LICENSE            "your_app_license"
+// #define USER_DEVELOPER_ACCOUNT      "your_developer_account"
+// #define USER_BAUD_RATE              "460800"
+
+#define USER_APP_NAME               "zenmuse h20"
+#define USER_APP_ID                 "139823"
+#define USER_APP_KEY                "322b1e63067ddc331d9b2f3b7df8804"
+#define USER_APP_LICENSE            "Ft5BMnvp9a53UtTXf/s8r61j4ZDREY2TiMjVXW+vKKQB6zoofhqShMcuNyAqZ+eYPiTCC0y89ICNKvL3e7ANdZBpYuf/j2cs4PtrOFBldXQEuWdOmGPfV8txYDdDabje+zyB3i5FttaXQnguj4XfpHT2YGgw63KS6TBdWNW/irPD38iZ9WhNNEjXkYD9aP7RBXzrG+QBvC/Ruah6k7tjWgisSyTRSuXRKYg8nYwAs7h0J3njWltxLAiP6fNG9yONtTV0OYTldal8bEzT4qVGnlfzBHWQRb2skoJ+QgxG3NabasX/nLB+Kv20zKiqEBTr+9XmX+FycHdweA4XD/kbBA=="
+#define USER_DEVELOPER_ACCOUNT      "gryphon.lra"
+#define USER_BAUD_RATE              "921600"
+
 
 /* Exported types ------------------------------------------------------------*/
 
